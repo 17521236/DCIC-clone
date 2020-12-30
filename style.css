@@ -1,0 +1,138 @@
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    color: #333333 !important;
+    font-size: 14px !important;
+}
+
+.banner {
+    width: 100%;
+}
+
+.language {
+    font-size: 11px;
+    padding: 0 0.5rem;
+}
+
+.vn {
+    color: red;
+    border-right: #333333 solid 1px;
+}
+
+.en {
+    color: blue;
+}
+
+.color-primary {
+    color: #4761ab;
+}
+
+.items {
+    list-style: none;
+    background-color: #CC3333;
+}
+
+.item {
+    padding: 0px 15px 0px 15px;
+    text-transform: uppercase;
+}
+
+.item>a {
+    color: white;
+    line-height: 40px;
+}
+
+.item:hover {
+    background: #339;
+}
+
+.active-1 {
+    background: #339;
+}
+
+.has-dropdown::after {
+    content: '˅';
+    display: inline-block;
+    margin: 0 0 0 6px;
+    vertical-align: center;
+    color: white;
+    font-size: 10px;
+    top: -1px;
+    position: relative;
+}
+
+.title-new {
+    line-height: 28px;
+    font-size: 1.3rem;
+    border-top: 1px #333 solid;
+    padding-top: 0.5rem;
+}
+
+.new-img {
+    height: 150px;
+}
+
+.project-header {
+    border-bottom: 1px dotted #ccc;
+    line-height: 45px;
+    margin-bottom: 15px;
+    background: #273b87
+}
+
+.project-title {
+    background: #4761ab;
+    margin-top: 0px;
+    padding: 22px 18px;
+    line-height: 28px;
+    font-size: 18px;
+    height: 125px;
+}
+
+.project-title a {
+    color: white;
+}
+
+.project-title p {
+    color: white;
+}
+
+.font-title {
+    color: white;
+    font-size: 18px;
+    font-family: inherit, Arial, Helvetica, sans-serif;
+}
+
+.hidden-md {
+    display: block;
+}
+
+.menu-md {
+    display: none;
+}
+
+@media (max-width: 991.98px) {
+    .hidden-md {
+        display: none;
+        width: 100%;
+    }
+    .menu-show {
+        display: flex;
+    }
+    .menu-md {
+        display: block;
+        margin-left: auto;
+    }
+    .items {
+        flex-direction: column;
+    }
+}
